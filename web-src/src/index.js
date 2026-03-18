@@ -29,6 +29,6 @@ async function loadActions() {
     const data = await res.json();
     el.innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
   } catch (e) {
-    el.innerHTML = '<p style="color:green;">✅ 앱이 정상적으로 실행 중입니다. 액션 테스트는 URL에서 직접 호출하세요.</p>';
+    el.innerHTML = '<p style="color:green;">✅ 앱이 정상적으로 실행 중입니다. 액션 테스트 URL에서 직접 호출하세요.</p>';
   }
 }
