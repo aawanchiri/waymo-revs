@@ -1,0 +1,21 @@
+application:
+  hostname: waymo-rev
+  runtimeManifest:
+    packages:
+      waymo-rev-1:
+        license: Apache-2.0
+        actions:
+          widget-data:
+            function: actions/admin/widget-data.js
+            runtime: nodejs:22
+            web: "yes"
+            annotations:
+              require-adobe-auth: false
+              final: true
+          dashboard:
+            function: actions/admin/dashboard.js
+            runtime: nodejs:22
+            web: "yes"
+            annotations:
+              require-adobe-auth: false
+              final: true

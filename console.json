@@ -1,0 +1,64 @@
+{
+  "project": {
+    "id": "4566206088345606749",
+    "name": "734BurgundyLion",
+    "title": "Project 155 Commerce Ams",
+    "org": {
+      "id": "285361",
+      "name": "Adobe Demo System",
+      "ims_org_id": "8EBB33FE5E43BA110A495EF8@AdobeOrg"
+    },
+    "workspace": {
+      "id": "4566206088345640457",
+      "name": "Stage",
+      "title": "Stage",
+      "action_url": "https://285361-734burgundylion-stage.adobeioruntime.net",
+      "app_url": "https://285361-734burgundylion-stage.adobeio-static.net",
+      "details": {
+        "credentials": [
+          {
+            "id": "916655",
+            "name": "Credential in Project 155 Commerce Ams - Stage",
+            "integration_type": "oauth_server_to_server",
+            "oauth_server_to_server": {
+              "client_id": "70a59f495a924b18ba52a0a4862a870c",
+              "client_secrets": [
+                "p8e-1uF4n32rmq-w6w15a2Gy-icadYoywllR"
+              ],
+              "technical_account_email": "39fdf75f-be47-4b35-bad0-f15b1e871e7d@techacct.adobe.com",
+              "technical_account_id": "818827C269B62E620A495E44@techacct.adobe.com",
+              "scopes": [
+                "AdobeID",
+                "openid",
+                "read_organizations",
+                "additional_info.projectedProductContext",
+                "additional_info.roles",
+                "adobeio_api",
+                "read_client_secret",
+                "manage_client_secrets"
+              ]
+            }
+          }
+        ],
+        "services": [
+          {
+            "code": "AdobeIOManagementAPISDK",
+            "name": "I/O Management API"
+          }
+        ],
+        "runtime": {
+          "namespaces": [
+            {
+              "name": "285361-734burgundylion-stage",
+              "auth": "cd12e6e0-e9f3-4287-b19e-42508874eef6:JQXgSADke4P04WBO33QmQjb536Pp853JhrmcWe51ELB23kieLhMT88LJU2LhwWR1"
+            }
+          ]
+        },
+        "events": {
+          "registrations": []
+        },
+        "mesh": {}
+      }
+    }
+  }
+}

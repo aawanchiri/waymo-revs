@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.aio
+*.log
+.DS_Store
+.parcel-cache/.aws.tmp.creds.json
+.aws.tmp.creds.json

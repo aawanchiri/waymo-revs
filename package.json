@@ -1,0 +1,22 @@
+{
+  "name": "waymo-rev",
+  "version": "1.0.0",
+  "description": "Adobe Commerce 내부 메모 관리 시스템",
+  "private": true,
+  "scripts": {
+    "dev": "aio app run",
+    "build": "aio app build",
+    "deploy": "aio app deploy",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@adobe/aio-sdk": "^5.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
